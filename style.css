@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: green;
+}
+
+header .container{
+    display: flex;
+    max-width: 980px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container h1,
+.container li a{
+    color: yellow;
+}
+
+header .container li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header .container li a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+header .container li a img{
+    height: 36px;
+}
+
+body{
+    background-color: antiquewhite;
+    padding: 6xp;
+}
+
+main #titulo-pagina{
+    color: brown;
+    width: 980px;
+    margin: 6px auto;
+    text-align: center;
+    padding: 12px;
+    color: black;
+}
+
+main #maracana{
+    background: rgb(221, 226, 211);
+    border: outset;
+    width: 980px;
+    margin: 8px auto;
+    padding: 18px 0;
+}
+
+main #maracana a{
+    text-align: center;
+    border: black;
+    background-color: rgb(19, 78, 78);
+    color: white;
+    margin: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+main #maracana a:hover,
+main #arenaBRB a:hover,
+main #morumbi a:hover,
+main #castelao a:hover,
+main #arrudao a:hover{
+    background-color: rgb(55, 156, 156);
+
+}
+
+main #maracana h3{
+    text-align: center;
+}
+
+
+main .articles{
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .articles figure img{
+    border: 2px solid yellow;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+
+}
+
+main #maracana h3 span{
+    text-decoration: underline;
+}
+
+main #maracana .destaque-box{
+    border: 8px solid orangered;
+    width: 700px;
+    margin: auto;
+    height: 240px;
+}
+
+main #maracana .destaque-box span{
+    font-size: 34px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.lista-destaques{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main #arenaBRB{
+    background: rgb(205, 240, 135);
+    border: outset;
+    width: 980px;
+    margin: 8px auto;
+    padding: 18px 0;
+}
+
+main #arenaBRB h3{
+    text-align: center;
+}
+
+main #arenaBRB h3 span{
+    text-decoration: underline;
+}
+
+main #arenaBRB .destaque-box{
+    border: 8px solid orangered;
+    width: 700px;
+    margin: auto;
+    height: 240px;
+}
+
+main #arenaBRB .destaque-box span{
+    font-size: 34px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+main #arenaBRB a{
+    text-align: center;
+    border: black;
+    background-color: rgb(19, 78, 78);
+    color: white;
+    margin: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+main #morumbi{
+    background: rgb(67, 165, 230);
+    border: outset;
+    width: 980px;
+    margin: 8px auto;
+    padding: 18px 0;
+}
+
+main #morumbi h3{
+    text-align: center;
+}
+
+main #morumbi h3 span{
+    text-decoration: underline;
+}
+
+main #morumbi .destaque-box{
+    border: 8px solid orangered;
+    width: 700px;
+    margin: auto;
+    height: 240px;
+}
+
+main #morumbi .destaque-box span{
+    font-size: 34px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+main #morumbi a{
+    text-align: center;
+    border: black;
+    background-color: rgb(19, 78, 78);
+    color: white;
+    margin: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+main #castelao{
+    background: rgb(235, 187, 133);
+    border: outset;
+    width: 980px;
+    margin: 8px auto;
+    padding: 18px 0;
+}
+
+main #castelao h3{
+    text-align: center;
+}
+
+main #castelao h3 span{
+    text-decoration: underline;
+}
+
+main #castelao .destaque-box{
+    border: 8px solid orangered;
+    width: 700px;
+    margin: auto;
+    height: 240px;
+}
+
+main #castelao .destaque-box span{
+    font-size: 34px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+main #castelao a{
+    text-align: center;
+    border: black;
+    background-color: rgb(19, 78, 78);
+    color: white;
+    margin: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+main #arrudao{
+    background: rgb(145, 98, 44);
+    border: outset;
+    width: 980px;
+    margin: 8px auto;
+    padding: 18px 0;
+}
+
+main #arrudao h3{
+    text-align: center;
+}
+
+main #arrudao h3 span{
+    text-decoration: underline;
+}
+
+main #arrudao .destaque-box{
+    border: 8px solid orangered;
+    width: 700px;
+    margin: auto;
+    height: 240px;
+}
+
+main #arrudao .destaque-box span{
+    font-size: 34px;
+    font-weight: 900;
+    margin: 50px;
+}
+
+main #arrudao a{
+    text-align: center;
+    border: black;
+    background-color: rgb(19, 78, 78);
+    color: white;
+    margin: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(218, 129, 22);
+    height: 60px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer p{
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(248, 246, 246);
+}
+
+footer .group-button{
+    display: inline;
+    margin-right: 30px;
+}
+
+footer .group-button button{
+    padding: 8px;
+    border-radius: 7px;
+    background-color: rgb(31, 31, 75);
+    color: white;
+    font-weight: 600;
+}
+
+footer .group-button button:hover{
+    background-color: rgb(25, 25, 143);
+    cursor: pointer;
+}
